@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles2.css" />
+  </head>
+
+  <body>
+    <h1 class="form-titulo neonText">Log in</h1>
+    <div class="container">
+      <form action="" class="form" id="form" autocomplete="off">
+        
+        
+        <div class="form-input">
+          <input type="text" id="username" />
+          <label for="username">Username</label>
+          <p class="mensajeError"></p>
+        </div>
+        
+        <div class="form-input">
+          <input type="password" id="password" />
+          <label for="password">Contraseña</label>
+          <p class="mensajeError"></p>
+        </div>
+        <div class="form-termsAndConditions">
+          <label for="termsAndConditions">No tienes cuenta? </label>
+          <a href="./index.html">Regístrate</a>
+          <p class="mensajeError"></p>
+        </div>
+        
+        
+        <div class="form-boton">
+          <a class="neon" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Enviar 
+      </a>
+        </div>
+        <p class="mensajeCorrecto"></p>
+      </form>
+    </div>
+    <script src="js/form.js"></script>
+  </body>
+</html>

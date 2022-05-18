@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1 class="form-titulo neonText">
+      Regístrate
+    </h1>
+    <div class="container">
+      <form action="" class="form" id="form" autocomplete="off">
+        
+        <div class="form-input">
+          <input type="text" id="myname" />
+          <label for="myname">Nombre</label>
+          <p class="mensajeError"></p>
+        </div>
+        <div class="form-input">
+          <input type="text" id="username" />
+          <label for="username">Username</label>
+          <p class="mensajeError"></p>
+        </div>
+        <div class="form-input">
+          <input type="email" id="email" />
+          <label for="email">Correo electrónico</label>
+          <p class="mensajeError"></p>
+        </div>
+        <div class="form-input">
+          <input type="password" id="password" />
+          <label for="password">Contraseña</label>
+          <p class="mensajeError"></p>
+        </div>
+        <div class="form-input">
+          <input type="password" id="repeatPassword" />
+          <label for="repeatPassword">Repetir Contraseña</label>
+          <p class="mensajeError"></p>
+        </div>
+        <div class="form-termsAndConditions">
+          <label for="termsAndConditions">Ya tienes cuenta? </label>
+          <a href="./index2.html">log in</a>
+          <p class="mensajeError"></p>
+        </div>
+        <div class="form-boton">
+          <a class="neon" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Enviar 
+      </a>
+        </div>
+        <p class="mensajeCorrecto"></p>
+      </form>
+    </div>
+    <script src="js/form.js"></script>
+  </body>
+</html>

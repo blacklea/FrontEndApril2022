@@ -1,0 +1,28 @@
+body{
+  background-image: url("https://wallpaperxyz.com/wp-content/uploads/Gif-Animated-Wallpaper-Background-Full-HD-Free-Download-for-PC-Macbook-261121-Wallpaperxyz.com-13.gif");
+}
+
+h1 {
+  margin-top: 220px;
+}
+form {
+      position: absolute;
+      top:60%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      max-width: 200px;
+  }
+
+
+form::after{
+    width: 350px;
+    height: 350px;
+  }
+
+  .neon{
+    margin-top: 20px;
+
+  }
+
+
+  
